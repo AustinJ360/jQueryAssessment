@@ -5,7 +5,7 @@
     <script type='text/javascript' src='main.js'></script>
 </head>
 <body>
-<div class="dan">
+<div id="dan" class="alert">
 
  	<button onclick="myFunction()">dan</button>
  	<script>
@@ -14,7 +14,7 @@ function myFunction() {
 }
 </script>
 </div>
-<div class="iwao">
+<div id="iwao" class="alert">
  	<button onclick="myFunction()">iwao</button>
  	<script>
 function myFunction() {
