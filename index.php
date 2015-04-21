@@ -1,29 +1,20 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<link rel='stylesheet' type='text/javascript' href='main.js'/>
-    <script type='text/javascript' src='main.js'></script>
+	<title></title>
 </head>
 <body>
-<div id="dan" class="alert">
+<div class="dan">
+	<p>
+	jquery assessment
+	</p>
 
- 	<button onclick="myFunction()">dan</button>
- 	<script>
-function myFunction() {
-    alert("Hey you clicked on me.");
-}
-</script>
-</div>
-<div id="iwao" class="alert">
- 	<button onclick="myFunction()">iwao</button>
- 	<script>
-function myFunction() {
-    alert("<p>Hey you clicked on me again.");
-}
-</script>
 </div>
 
-</body>
-
+<div id="iwao">
+	<p> jquery  assessment</p>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
 </html>
